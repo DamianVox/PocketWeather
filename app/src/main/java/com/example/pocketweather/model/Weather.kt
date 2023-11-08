@@ -1,6 +1,8 @@
-package com.example.pocketweather.data
+// YApi QuickType插件生成，具体参考文档:https://plugins.jetbrains.com/plugin/18847-yapi-quicktype/documentation
 
-data class WeatherData (
+package com.example.pocketweather.model
+
+data class Weather (
     val elevation: Long,
     val generationtimeMS: Double,
     val timezoneAbbreviation: String,
